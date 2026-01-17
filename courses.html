@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khóa Học - Anh Lập Trình</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="ALT_anh.png" alt="Anh Lập Trình Logo" class="logo-img">
+                    <span class="logo-text">ANH LẬP TRÌNH</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Trang Chủ</a></li>
+                        <li><a href="courses.html" class="nav-link active"><i class="fas fa-graduation-cap"></i> Khóa Học</a></li>
+                        <li><a href="about.html" class="nav-link"><i class="fas fa-users"></i> Về Chúng Tôi</a></li>
+                        <li><a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i> Liên Hệ</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="courses" style="padding-top: 8rem;">
+        <div class="container">
+            <h2 class="section-title">Các Khóa Học Nổi Bật</h2>
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card course-card-python">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Tự Động Hóa Công Việc Nhàm Chán Với Python AI</h3>
+                        <p class="course-code">TDHCVV02</p>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Học cách tự động hóa các tác vụ lặp đi lặp lại bằng Python và AI, giải phóng thời gian cho những việc quan trọng hơn.
+                        </p>
+                        <div class="course-price">1.450.000 VNĐ</div>
+                        <a href="https://tdh.pyan.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 2 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Chồng Giỏi AI: Tự Động Hóa Video, Hình Ảnh Với N8N Và AI</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Khám phá sức mạnh của N8N và AI trong việc tự động hóa quy trình xử lý video và hình ảnh, tạo ra nội dung chất lượng cao một cách nhanh chóng.
+                        </p>
+                        <div class="course-price">1.520.000 VNĐ</div>
+                        <a href="https://n8n.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 3 -->
+                <div class="course-card course-card-ai">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Tạo Trợ Lý AI Cá Nhân Hóa</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Xây dựng một trợ lý AI của riêng bạn, có khả năng hiểu và thực hiện các yêu cầu phức tạp, giúp bạn quản lý công việc và cuộc sống hiệu quả hơn.
+                        </p>
+                        <div class="course-price">1.480.000 VNĐ</div>
+                        <a href="https://trolyai.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 4 -->
+                <div class="course-card course-card-zalo">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Biến Zalo Thành Trợ Lý AI Cá Nhân Hóa</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Tận dụng nền tảng Zalo quen thuộc để xây dựng một trợ lý AI mạnh mẽ, tương tác trực tiếp và hỗ trợ bạn mọi lúc mọi nơi.
+                        </p>
+                        <div class="course-price">1.420.000 VNĐ</div>
+                        <a href="https://tzalo.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 5 -->
+                <div class="course-card course-card-python">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Tạo Nhanh Tool Giải Quyết Công Việc Tức Thì Với A.I Kết Hợp Python</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Học cách xây dựng các công cụ nhỏ gọn bằng Python và AI để giải quyết nhanh chóng các vấn đề công việc phát sinh.
+                        </p>
+                        <div class="course-price">1.450.000 VNĐ</div>
+                        <a href="https://tool.pyan.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 6 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Chồng Giỏi AI: Tự Động Hóa Tạo Video, Hình Ảnh Với Make Và A.I Kết Hợp</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Làm chủ Make.com (Integromat) và AI để tự động hóa việc tạo và quản lý video, hình ảnh một cách chuyên nghiệp.
+                        </p>
+                        <div class="course-price">1.520.000 VNĐ</div>
+                        <a href="https://make.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 7 -->
+                <div class="course-card course-card-ai">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Trợ Lý AI Cá Nhân Hóa: Tự Động Hóa Fanpage Facebook Messenger</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Xây dựng trợ lý AI thông minh để tự động hóa việc quản lý và tương tác trên Fanpage Facebook Messenger, nâng cao hiệu quả chăm sóc khách hàng.
+                        </p>
+                        <div class="course-price">1.350.000 VNĐ</div>
+                        <a href="https://meface.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 8 -->
+                <div class="course-card course-card-ai">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Trợ Lý AI Cá Nhân Hóa: Tạo Hợp Đồng Từ Template Có Sẵn</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Sử dụng AI để tự động tạo ra các hợp đồng chuyên nghiệp từ template có sẵn, tiết kiệm thời gian và đảm bảo tính chính xác.
+                        </p>
+                        <div class="course-price">1.350.000 VNĐ</div>
+                        <a href="https://hd1.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 9 -->
+                <div class="course-card course-card-ai">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-advanced">Nâng Cao</div>
+                        <h3 class="course-title">Trợ Lý AI Cá Nhân Hóa: Tài Chính Chứng Khoán</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Phát triển trợ lý AI chuyên biệt cho lĩnh vực tài chính và chứng khoán, hỗ trợ phân tích thị trường và đưa ra quyết định đầu tư thông minh.
+                        </p>
+                        <div class="course-price">1.350.000 VNĐ</div>
+                        <a href="https://tcck1.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 10 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Kỹ Thuật Tự Động Hóa Facebook Ads Để Giảm Chi Phí Và Áp Lực Tâm Lý "Sợ" Bị Cắn Tiền Vô Tội Vạ Mà Không Có Kết Quả Với AI Automation (N8n)</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Tự động hóa quảng cáo Facebook với N8n và AI để tối ưu chi phí, giảm áp lực và đạt hiệu quả cao hơn.
+                        </p>
+                        <div class="course-price">1.520.000 VNĐ</div>
+                        <a href="https://tda.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 11 -->
+                <div class="course-card course-card-ai">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-advanced">Nâng Cao</div>
+                        <h3 class="course-title">Trợ Lý A.I Cá Nhân Hóa Sử Dụng CustomGPT của ChatGPT</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Tạo ra trợ lý AI cá nhân hóa mạnh mẽ bằng cách sử dụng tính năng CustomGPT của ChatGPT.
+                        </p>
+                        <div class="course-price">1.120.000 VNĐ</div>
+                        <a href="https://customgpt.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 12 -->
+                <div class="course-card course-card-python">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Sử Dụng Python Trong N8n Để Tự Động Hóa Mọi Thứ Anh Em Muốn (Chuyên Sâu Của N8n)</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Khóa học chuyên sâu về việc kết hợp Python và N8n để tạo ra các quy trình tự động hóa không giới hạn.
+                        </p>
+                        <div class="course-price">1.300.000 VNĐ</div>
+                        <a href="https://pythonn8n.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 13 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-table"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Sử Dụng N8n Để Xử Lý Dữ Liệu Trên Excel (Không Cần Code Chỉ Cần Kéo Thả)</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Học cách sử dụng N8n để tự động hóa việc xử lý dữ liệu trên Excel mà không cần viết một dòng mã nào.
+                        </p>
+                        <div class="course-price">1.200.000 VNĐ</div>
+                        <a href="https://exceln8n.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 14 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-spider"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Cào Bất Kỳ Dữ Liệu Website Nào Sử Dụng N8n (Không Cần Code Chỉ Cần Kéo Thả)</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Học cách trích xuất dữ liệu từ bất kỳ trang web nào bằng N8n một cách dễ dàng, không cần kỹ năng lập trình.
+                        </p>
+                        <div class="course-price">1.400.000 VNĐ</div>
+                        <a href="https://webn8n.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+
+                <!-- Course 15 -->
+                <div class="course-card course-card-n8n">
+                    <div class="course-image">
+                        <div class="course-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-level-badge course-level-beginner">Người Mới Bắt Đầu</div>
+                        <h3 class="course-title">Tự Động Đăng Bài Đa Nền Tảng Sử Dụng AI Automation</h3>
+                        <p class="course-instructor"><i class="fas fa-user"></i> Anh Lập Trình (Nguyễn Văn Nhuần)</p>
+                        <p class="course-description">
+                            Tự động hóa việc đăng bài lên nhiều nền tảng mạng xã hội khác nhau bằng AI, tiết kiệm thời gian và tăng cường sự hiện diện trực tuyến.
+                        </p>
+                        <div class="course-price">1.400.000 VNĐ</div>
+                        <a href="https://postn8n.anhlaptrinh.vn/" target="_blank" class="btn btn-secondary">Xem Chi Tiết Khóa Học</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Anh Lập Trình</h3>
+                    <p class="footer-quote">"Cứ ứng dụng vào công việc đi, vướng thì gỡ"</p>
+                    <div class="footer-links">
+                        <a href="https://www.youtube.com/@pyanpython" target="_blank" class="footer-link-btn footer-btn-youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>Anh Lập Trình</span>
+                        </a>
+                        <a href="https://www.facebook.com/tudonghoanocode/" target="_blank" class="footer-link-btn footer-btn-facebook-1">
+                            <i class="fab fa-facebook"></i>
+                            <span>Anh Lập Trình</span>
+                        </a>
+                        <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" class="footer-link-btn footer-btn-facebook-ai">
+                            <i class="fab fa-facebook"></i>
+                            <span>Anh Lập Trình - Trợ Lý A.I</span>
+                        </a>
+                        <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" class="footer-link-btn footer-btn-facebook-python">
+                            <i class="fab fa-facebook"></i>
+                            <span>Anh Lập Trình - Python</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Thông Tin Liên Hệ</h4>
+                    <p><strong>Công Ty TNHH Anh Lập Trình</strong></p>
+                    <p>Lầu 5: Toà Nhà ST. MORITZ<br>1014 Phạm Văn Đồng, P. Hiệp Bình Chánh, Thủ Đức, Thành phố Hồ Chí Minh</p>
+                    <p>Mã số thuế: 0318822989</p>
+                    <p>Điện thoại: <a href="tel:0914972102">0914 972 102</a></p>
+                    <p>Email: <a href="mailto:contact@anhlaptrinh.vn">contact@anhlaptrinh.vn</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anh Lập Trình (Nguyễn Văn Nhuần). Mọi quyền được bảo lưu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Social Buttons -->
+    <div class="floating-buttons">
+        <a href="https://www.youtube.com/@pyanpython" target="_blank" class="floating-btn floating-btn-youtube" aria-label="YouTube - Pyan Python">
+            <i class="fab fa-youtube"></i>
+            <span class="floating-btn-tooltip">YouTube</span>
+        </a>
+        <a href="https://www.facebook.com/tudonghoanocode/" target="_blank" class="floating-btn floating-btn-facebook" aria-label="Facebook - Tự Động Hóa No Code">
+            <i class="fab fa-facebook"></i>
+            <span class="floating-btn-tooltip">Facebook</span>
+        </a>
+        <a href="https://www.facebook.com/PythonVBARevitExcelAutocad/" target="_blank" class="floating-btn floating-btn-facebook" aria-label="Facebook - Python VBA Revit Excel Autocad">
+            <i class="fab fa-facebook"></i>
+            <span class="floating-btn-tooltip">Facebook</span>
+        </a>
+        <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" class="floating-btn floating-btn-facebook" aria-label="Facebook - Python Cho Người Lớn">
+            <i class="fab fa-facebook"></i>
+            <span class="floating-btn-tooltip">Facebook</span>
+        </a>
+        <a href="https://www.facebook.com/pythonchonguoilon/" target="_blank" class="floating-btn floating-btn-facebook" aria-label="Facebook - Python Cho Người Lớn 2">
+            <i class="fab fa-facebook"></i>
+            <span class="floating-btn-tooltip">Facebook</span>
+        </a>
+        <a href="https://id.zalo.me/account/login?continue=http%3A%2F%2Fzalo.me%2F0854838394" target="_blank" class="floating-btn floating-btn-zalo" aria-label="Zalo">
+            <img src="logozalo.png" alt="Zalo" class="zalo-logo-icon">
+            <span class="floating-btn-tooltip">Zalo</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1277,34 +1277,58 @@ body {
     .mobile-menu-toggle {
         display: block;
     }
+
+    /* About Section - Layout dọc trên mobile */
+    .about-content {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 2rem !important;
+        width: 100% !important;
+        align-items: stretch !important;
+    }
+
+    .about-image {
+        order: 1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-shrink: 0 !important;
+    }
+
+    .about-text {
+        order: 2 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: justify !important;
+        padding: 0 1rem !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        overflow: hidden !important;
+    }
+
+    .about-text * {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        box-sizing: border-box !important;
+    }
+
+    .instructor-image {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+    }
 }
 
 /* Responsive Design */
 @media (min-width: 969px) {
     .nav {
         display: block !important;
-    }
-}
-
-    .title-main {
-        font-size: 2.5rem;
-    }
-
-    .title-sub {
-        font-size: 1.5rem;
-    }
-
-    .about-content {
-        grid-template-columns: 300px 1fr;
-        gap: 2rem;
-    }
-
-    .about-image {
-        justify-content: flex-start;
-    }
-
-    .instructor-image {
-        max-width: 300px;
     }
 }
 
@@ -1327,10 +1351,21 @@ body {
 
     .hero-description {
         font-size: 1rem;
+        text-align: justify;
     }
 
     .section-title {
         font-size: 2rem;
+    }
+
+    /* Căn chỉnh đều hai bên cho text trên mobile */
+    .benefit-text,
+    .course-description,
+    .instructor-description,
+    .ps-text,
+    .instructor-note p,
+    .about-list {
+        text-align: justify;
     }
 
     .benefits-grid,
@@ -1339,16 +1374,81 @@ body {
     }
 
     .about-content {
-        grid-template-columns: 1fr;
-        text-align: center;
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 2rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        align-items: stretch !important;
     }
 
     .about-image {
-        justify-content: center;
+        order: 1 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+    }
+
+    .about-text {
+        order: 2 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: justify !important;
+        padding: 0 1rem !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        overflow: hidden !important;
+    }
+
+    .about-text * {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        box-sizing: border-box !important;
+    }
+
+    .instructor-name,
+    .instructor-name-alt,
+    .instructor-description,
+    .quote,
+    .btn {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
     }
 
     .instructor-image {
-        max-width: 300px;
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .instructor-name,
+    .instructor-name-alt,
+    .instructor-intro {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .instructor-description {
+        text-align: justify !important;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .quote {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .map-container {
@@ -1384,9 +1484,47 @@ body {
     }
 
     .footer-content {
+        display: flex;
+        flex-direction: column;
         grid-template-columns: 1fr;
-        gap: 2rem;
+        gap: 2.5rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-brand {
         text-align: center;
+        order: 1;
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer-contact {
+        text-align: left;
+        order: 2;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-contact h4 {
+        text-align: center;
+        margin-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    .footer-contact p {
+        text-align: left;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 0.75rem;
+    }
+
+    .footer-contact strong {
+        display: block;
+        margin-bottom: 0.5rem;
     }
 
     .ps-card {
@@ -1400,11 +1538,6 @@ body {
 
     .ps-text {
         font-size: 1rem;
-    }
-
-    .footer-brand,
-    .footer-contact {
-        text-align: center;
     }
 
     .footer-links {
@@ -1426,6 +1559,21 @@ body {
 @media (max-width: 480px) {
     .container {
         padding: 0 15px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .footer .container {
+        padding: 0 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about .container {
+        padding: 0 15px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .hero {
@@ -1447,12 +1595,130 @@ body {
         padding: 3rem 0;
     }
 
+    /* Đảm bảo text căn đều trên màn hình nhỏ */
+    .hero-description,
+    .benefit-text,
+    .course-description,
+    .instructor-description,
+    .ps-text,
+    .instructor-note p,
+    .about-list,
+    .contact-item p {
+        text-align: justify;
+    }
+
     .footer {
         padding: 2rem 0 1rem;
     }
 
     .footer-content {
-        gap: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-brand {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-contact {
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .footer-contact h4 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-contact p {
+        text-align: left;
+        font-size: 0.9rem;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        width: 100%;
+        box-sizing: border-box;
+        hyphens: auto;
+        margin-bottom: 0.75rem;
+    }
+
+    .footer-contact strong {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    .about-content {
+        display: flex !important;
+        flex-direction: column !important;
+        grid-template-columns: none !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        align-items: stretch !important;
+        overflow: hidden !important;
+    }
+
+    .about-image {
+        width: 100% !important;
+        max-width: 100% !important;
+        order: 1 !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+        padding: 0 1rem !important;
+    }
+
+    .about-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        text-align: justify !important;
+        padding: 0 1rem !important;
+        order: 2 !important;
+        box-sizing: border-box !important;
+        flex-shrink: 0 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        overflow: hidden !important;
+    }
+
+    .about-text * {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        box-sizing: border-box !important;
+    }
+
+    .instructor-name,
+    .instructor-name-alt,
+    .instructor-description,
+    .quote {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        box-sizing: border-box !important;
+    }
+
+    .btn {
+        max-width: 100% !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        box-sizing: border-box !important;
+        white-space: normal !important;
+    }
+
+    .instructor-description,
+    .instructor-name,
+    .instructor-name-alt,
+    .quote {
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .floating-buttons {

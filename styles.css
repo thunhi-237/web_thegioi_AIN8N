@@ -594,9 +594,70 @@ body {
     background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
-/* Contract/Document Background - Specific for "Tạo Hợp Đồng" course - Bright, People, Friendly - Unique Image */
+/* Contract/Document Background - Specific for "Tạo Hợp Đồng" course - Using local image */
 .course-card-ai.course-card-contract .course-image {
-    background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') !important;
+    background-image: url('Hinhanhcackhoahoc/Trợ Lý AI Cá Nhân Hóa Tạo Hợp Đồng Từ Template Có Sẵn.jpg') !important;
+}
+
+/* Local Images from Hinhanhcackhoahoc folder - Override Unsplash images */
+.course-card-tdhcvv .course-image {
+    background-image: url('Hinhanhcackhoahoc/Tự Động Hóa Công Việc Nhàm Chán Với Python AI.jpg') !important;
+}
+
+.course-card-n8n-video .course-image {
+    background-image: url('Hinhanhcackhoahoc/Chồng Giỏi AI Tự Động Hóa Video, Hình Ảnh Với N8N Và AI.jpg') !important;
+}
+
+.course-card-trolyai .course-image {
+    background-image: url('Hinhanhcackhoahoc/Tạo Trợ Lý AI Cá Nhân Hóa.jpg') !important;
+}
+
+.course-card-zalo-ai .course-image {
+    background-image: url('Hinhanhcackhoahoc/Biến Zalo Thành Trợ Lý AI Cá Nhân Hóa.jpg') !important;
+}
+
+.course-card-tool-python .course-image {
+    background-image: url('Hinhanhcackhoahoc/Tạo Nhanh Tool Giải Quyết Công Việc Tức Thì Với A.I Kết Hợp Python.jpg') !important;
+}
+
+.course-card-make-video .course-image {
+    background-image: url('Hinhanhcackhoahoc/Chồng Giỏi AI Tự Động Hóa Tạo Video, Hình Ảnh Với Make Và A.I Kết Hợp.jpg') !important;
+}
+
+.course-card-fanpage-messenger .course-image {
+    background-image: url('Hinhanhcackhoahoc/Trợ Lý AI Cá Nhân Hóa Tự Động Hóa Fanpage Facebook Messenger.jpg') !important;
+}
+
+.course-card-contract .course-image {
+    background-image: url('Hinhanhcackhoahoc/Trợ Lý AI Cá Nhân Hóa Tạo Hợp Đồng Từ Template Có Sẵn.jpg') !important;
+}
+
+.course-card-tc-ck .course-image {
+    background-image: url('Hinhanhcackhoahoc/Trợ Lý AI Cá Nhân Hóa Tài Chính Chứng Khoán.jpg') !important;
+}
+
+.course-card-fb-ads .course-image {
+    background-image: url('Hinhanhcackhoahoc/Kỹ Thuật Tự Động Hóa Facebook Ads Để Giảm Chi Phí Và Áp Lực Tâm Lý "Sợ" Bị Cắn Tiền Vô Tội Vạ Mà Không Có Kết Quả Với AI Automation (N8n).jpg') !important;
+}
+
+.course-card-customgpt .course-image {
+    background-image: url('Hinhanhcackhoahoc/Trợ Lý A.I Cá Nhân Hóa Sử Dụng CustomGPT của ChatGPT.jpg') !important;
+}
+
+.course-card-python-n8n .course-image {
+    background-image: url('Hinhanhcackhoahoc/Sử Dụng Python Trong N8n Để Tự Động Hóa Mọi Thứ Anh Em Muốn (Chuyên Sâu Của N8n).jpg') !important;
+}
+
+.course-card-excel-n8n .course-image {
+    background-image: url('Hinhanhcackhoahoc/Sử Dụng N8n Để Xử Lý Dữ Liệu Trên Excel (Không Cần Code Chỉ Cần Kéo Thả).jpg') !important;
+}
+
+.course-card-web-scraping .course-image {
+    background-image: url('Hinhanhcackhoahoc/Cào Bất Kỳ Dữ Liệu Website Nào Sử Dụng N8n (Không Cần Code Chỉ Cần Kéo Thả).jpg') !important;
+}
+
+.course-card-multi-platform .course-image {
+    background-image: url('Hinhanhcackhoahoc/Tự Động Đăng Bài Đa Nền Tảng Sử Dụng AI Automation.jpg') !important;
 }
 
 .course-icon {

@@ -522,7 +522,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 100%);
     z-index: 1;
 }
 
@@ -539,64 +539,64 @@ body {
     z-index: 1;
 }
 
-/* Python AI Automation Background - Variant 1 */
+/* Python AI Automation Background - Bright, People, Friendly - Unique Images */
 .course-card-python .course-image {
-    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Python AI Automation Background - Variant 2 */
 .course-card-python:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Python AI Automation Background - Variant 3 */
 .course-card-python:nth-child(3n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
-/* N8N và AI Automation Background - Variant 1 */
+/* N8N và AI Automation Background - Bright, People, Friendly - Unique Images */
 .course-card-n8n .course-image {
-    background-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* N8N và AI Automation Background - Variant 2 */
 .course-card-n8n:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* N8N và AI Automation Background - Variant 3 */
 .course-card-n8n:nth-child(3n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
-/* Trợ Lý AI / ChatGPT Background - Variant 1 */
+/* Trợ Lý AI / ChatGPT Background - Bright, People, Friendly - Unique Images */
 .course-card-ai .course-image {
-    background-image: url('https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Trợ Lý AI / ChatGPT Background - Variant 2 */
 .course-card-ai:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1676299080923-6c88f8b0b0b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Trợ Lý AI / ChatGPT Background - Variant 3 */
 .course-card-ai:nth-child(3n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
-/* Zalo AI / Messaging Background - Variant 1 */
+/* Zalo AI / Messaging Background - Bright, People, Friendly - Unique Images */
 .course-card-zalo .course-image {
-    background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Zalo AI / Messaging Background - Variant 2 */
 .course-card-zalo:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
-/* Contract/Document Background - Specific for "Tạo Hợp Đồng" course */
+/* Contract/Document Background - Specific for "Tạo Hợp Đồng" course - Bright, People, Friendly - Unique Image */
 .course-card-ai.course-card-contract .course-image {
-    background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') !important;
+    background-image: url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80') !important;
 }
 
 .course-icon {

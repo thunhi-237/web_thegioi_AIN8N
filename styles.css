@@ -561,12 +561,12 @@ body {
 
 /* N8N và AI Automation Background - Variant 2 */
 .course-card-n8n:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* N8N và AI Automation Background - Variant 3 */
 .course-card-n8n:nth-child(3n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Trợ Lý AI / ChatGPT Background - Bright, People, Friendly - Unique Images */
@@ -576,7 +576,7 @@ body {
 
 /* Trợ Lý AI / ChatGPT Background - Variant 2 */
 .course-card-ai:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Trợ Lý AI / ChatGPT Background - Variant 3 */
@@ -586,12 +586,12 @@ body {
 
 /* Zalo AI / Messaging Background - Bright, People, Friendly - Unique Images */
 .course-card-zalo .course-image {
-    background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Zalo AI / Messaging Background - Variant 2 */
 .course-card-zalo:nth-child(2n) .course-image {
-    background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
 }
 
 /* Contract/Document Background - Specific for "Tạo Hợp Đồng" course - Bright, People, Friendly - Unique Image */
